@@ -8,7 +8,7 @@ import { Component } from "react";
 class App extends Component {
   constructor() {
     super();
-    this.state = { robots: robots, searchfield: "" };
+    this.state = { robots: [], searchfield: "" };
   }
 
   onSearchChange = (event) => {
